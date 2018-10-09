@@ -1,0 +1,23 @@
+Instalação do Servidor
+
+Para Windows:
+http://www.wampserver.com/en/
+
+Para Mac:
+https://www.mamp.info/en/downloads/
+
+Para Linux (apt-get):
+	Atualizar fontes:
+		sudo apt-get update
+
+	Instalar o Apache:
+		sudo apt-get install apache2 apache2-utils
+
+	Instalar o PHP:
+		sudo apt-get install libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-memcached php7.0-dev php7.0-mcrypt php7.0-sqlite3 php7.0-mbstring
+
+	Instalar o MySQL:
+		sudo apt-get install mysql-server mysql-client libmysqlclient15-dev phpmyadmin
+
+	Inicializando o servidor:
+		sudo service apache2 start
